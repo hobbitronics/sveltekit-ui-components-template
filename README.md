@@ -1,6 +1,6 @@
 # create-svelte
 
-A template for everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte) and ['@silintl/ui-components'](https://github.com/silinternational/ui-components).
+A template for everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte) and [`@silintl/ui-components`](https://github.com/silinternational/ui-components).
 
 ## Creating a project
 
