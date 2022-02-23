@@ -1,0 +1,23 @@
+// https://material.io/develop/web/docs/theming
+
+:root {
+  --mdc-theme-primary: #00a7e1;
+  --mdc-theme-primary-variant: #0078af;
+  --mdc-theme-secondary: #ff4800;
+  --mdc-theme-error: #c30000;
+  --mdc-theme-neutral: #6d7580;
+  --mdc-required-input: gray;
+  --progress-bar-color: #005cb9;
+  --main-content-height: unset;
+  --mdc-button-outline-color: #00a7e1;
+  --mdc-list-item__subtitle: #6d7580;
+  --mdc-menu-icon-color: #6d7580;
+}
+
+.mdc-theme--primary-variant {
+  color: var(--mdc-theme-primary-variant);
+}
+
+.mdc-theme--primary {
+  color: var(--mdc-theme-primary);
+}
