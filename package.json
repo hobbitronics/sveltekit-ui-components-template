@@ -10,7 +10,7 @@
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
   },
   "devDependencies": {
-    "@silintl/ui-components": "file:../../ui-components",
+    "@silintl/ui-components": "github:silinternational/ui-components#72e2abb772b4d114f1ef608eb03a3d92af033483",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "material-components-web": "^10.0.0",
