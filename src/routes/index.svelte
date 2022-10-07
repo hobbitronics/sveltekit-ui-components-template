@@ -1,14 +1,9 @@
 <script context="module">
-	import "../lib/_index.scss"
-	import { Button, IconButton, setNotice } from '@silintl/ui-components'
-	
-	export const prerender = true;
-</script>
-
-<script>
+	import '../lib/_index.scss';
 	import Counter from '$lib/Counter.svelte';
-	import Snackbar from '../../../../ui-components/components/mdc/Snackbar/Snackbar.svelte';
-	import Tooltip from "@silintl/ui-components/components/mdc/Tooltip/Tooltip.svelte";
+	import { Button, IconButton, setNotice, Snackbar, Tooltip } from '@silintl/ui-components';
+
+	export const prerender = true;
 </script>
 
 <svelte:head>
@@ -36,12 +31,12 @@
 	<Button raised on:click={() => setNotice('Hi mom!')}>Hi Mom</Button>
 
 	<Tooltip.Wrapper ariaDescribedBy="icon-button">
-		<IconButton url="/about" icon="house" />
+		<IconButton url="/about" icon="house" ariaLabel="about" />
 	</Tooltip.Wrapper>
 
 	<Tooltip tooltipID="icon-button" positionX="start">Go to About</Tooltip>
-	
-	<Snackbar/>
+
+	<Snackbar />
 </section>
 
 <style>

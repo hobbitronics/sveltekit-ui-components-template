@@ -1,28 +1,28 @@
 {
-  "name": "sveltekit-ui-components-template",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "package": "svelte-kit package",
-    "preview": "svelte-kit preview",
-    "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. .",
-    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
-  },
-  "devDependencies": {
-    "@silintl/ui-components": "github:silinternational/ui-components#72e2abb772b4d114f1ef608eb03a3d92af033483",
-    "@sveltejs/adapter-auto": "next",
-    "@sveltejs/kit": "next",
-    "material-components-web": "^10.0.0",
-    "prettier": "^2.5.1",
-    "prettier-plugin-svelte": "^2.5.0",
-    "sass": "1.32.x",
-    "svelte": "^3.46.0"
-  },
-  "type": "module",
-  "dependencies": {
-    "@fontsource/fira-mono": "^4.5.0",
-    "@lukeed/uuid": "^2.0.0",
-    "cookie": "^0.4.1"
-  }
+	"name": "sveltekit-ui-components-template",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"package": "svelte-kit package",
+		"preview": "svelte-kit preview",
+		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. .",
+		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+	},
+	"devDependencies": {
+		"@silintl/ui-components": "^6.0.0",
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"material-components-web": "^13.0.0",
+		"prettier": "^2.5.1",
+		"prettier-plugin-svelte": "^2.5.0",
+		"sass": "1.50.x",
+		"svelte": "^3.46.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fontsource/fira-mono": "^4.5.0",
+		"@lukeed/uuid": "^2.0.0",
+		"cookie": "^0.4.1"
+	}
 }
