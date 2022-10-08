@@ -1,7 +1,13 @@
 <script context="module">
 	import '../lib/_index.scss';
 	import Counter from '$lib/Counter.svelte';
-	import { Button, IconButton, setNotice, Snackbar, Tooltip } from '@silintl/ui-components';
+	import {
+		Button,
+		IconButton,
+		setNotice,
+		Snackbar,
+		Tooltip
+	} from '../../node_modules/@silintl/ui-components/index.mjs';
 
 	export const prerender = true;
 </script>
